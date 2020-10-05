@@ -1,3 +1,27 @@
 body {
   font-family: 'Avenir';
 }
+
+.item {
+  width: 200px;
+  height: 200px;
+}
+
+.base {
+  background-color: $colorBase;
+}
+.semiLight {
+  background-color: lighten($colorBase, 20%);
+}
+.light {
+  background-color: lighten($colorBase, 30%);
+}
+.semiDark {
+  background-color: darken($colorBase, 10%);
+}
+.dark {
+  background-color: darken($colorBase, 20%);
+}
+.alpha {
+  background-color: rgba($colorBase, .5);
+}
